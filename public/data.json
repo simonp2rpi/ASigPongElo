@@ -1,0 +1,96 @@
+{
+  "brother": [
+    {
+      "name": "Graham",
+      "elo": 1180
+    },
+    {
+      "name": "Peter",
+      "elo": 1088
+    },
+    {
+      "name": "Jack",
+      "elo": 1068
+    },
+    {
+      "name": "Daniel",
+      "elo": 1064
+    },
+    {
+      "name": "David",
+      "elo": 1026
+    },
+    {
+      "name": "Joe",
+      "elo": 1015
+    },
+    {
+      "name": "Chris",
+      "elo": 1014
+    },
+    {
+      "name": "Nick",
+      "elo": 1004
+    },
+    {
+      "name": "James",
+      "elo": 999
+    },
+    {
+      "name": "Alex",
+      "elo": 997
+    },
+    {
+      "name": "Jon",
+      "elo": 997
+    },
+    {
+      "name": "Zach P.",
+      "elo": 976
+    },
+    {
+      "name": "Tom",
+      "elo": 975
+    },
+    {
+      "name": "Adam",
+      "elo": 975
+    },
+    {
+      "name": "Thomas",
+      "elo": 975
+    },
+    {
+      "name": "Eric O.",
+      "elo": 975
+    },
+    {
+      "name": "Sully",
+      "elo": 975
+    },
+    {
+      "name": "Zach W.",
+      "elo": 973
+    },
+    {
+      "name": "Kolby",
+      "elo": 968
+    },
+    {
+      "name": "Jacob",
+      "elo": 954
+    },
+    {
+      "name": "Morgan",
+      "elo": 951
+    },
+    {
+      "name": "Ethan",
+      "elo": 946
+    },
+    {
+      "name": "Austin",
+      "elo": 944
+    }
+  ]
+}

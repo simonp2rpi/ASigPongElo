@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Input</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pong Score Input</h1>
+        
+        <div class="form-group">
+            <label for="player1">Winner:</label>
+            <select id="player1" name="player1" required></select>
+        </div>
+
+        <div class="form-group">
+            <label for="player2">Loser:</label>
+            <select id="player2" name="player2" required></select>
+        </div>
+
+        <div class="form-group">
+            <label for="finalscore">Final Score:</label>
+            <select id="finalscore" name="finalscore" required>
+                <option value=5>5-0</option>
+                <option value=4>4-0</option>
+                <option value=3>3-0</option>
+                <option value=2>2-0</option>
+                <option value=1>1-0</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="wassink">Sink?:</label>
+            <select id="wassink" name="wassink" required>
+                <option value=false>No</option>
+                <option value=true>Yes</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="button" value="Submit Scores" onclick="updateElo(player1.value, player2.value, finalscore.value, wassink.value);" />
+        </div>
+
+        <div class="form-group">
+            <input type="button" value="See Current Rankings" onclick="window.location.href='/rankings'" />
+        </div>
+
+        <div class="form-group">
+            <label for="newplayer">Input New Player Name:</label>
+            <input type="text" id="newplayer" name="newplayer" required>
+        </div>
+
+        <div class="form-group">
+            <input type="button" value="Submit Player" onclick="addPlayer(newplayer.value);" />
+        </div>
+    </div>
+</body>
+</html>
+
