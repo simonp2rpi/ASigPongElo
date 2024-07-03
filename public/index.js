@@ -59,7 +59,7 @@ function updateElo(player1Name, player2Name, finalScore, wasSink) {
                 alert('Player not found in data.');
                 return;
             }
-
+            
             const rating1 = player1.elo;
             const rating2 = player2.elo;
 

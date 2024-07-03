@@ -1,96 +1,96 @@
 {
   "brother": [
     {
-      "name": "Graham",
-      "elo": 1180
+      "name": "Graham Wells",
+      "elo": 1000
     },
     {
-      "name": "Peter",
-      "elo": 1088
+      "name": "Peter Simone",
+      "elo": 1000
     },
     {
-      "name": "Jack",
-      "elo": 1068
+      "name": "Jack Hobart",
+      "elo": 1000
     },
     {
-      "name": "Daniel",
-      "elo": 1064
+      "name": "Daniel Finck",
+      "elo": 1000
     },
     {
-      "name": "David",
-      "elo": 1026
+      "name": "David Finck",
+      "elo": 1000
     },
     {
-      "name": "Joe",
-      "elo": 1015
+      "name": "Joe Dingledine",
+      "elo": 1000
     },
     {
-      "name": "Chris",
-      "elo": 1014
+      "name": "Chris Villanueva",
+      "elo": 1000
     },
     {
-      "name": "Nick",
-      "elo": 1004
+      "name": "Nick Korteling",
+      "elo": 1000
     },
     {
-      "name": "James",
-      "elo": 999
+      "name": "James Stratton-Brown",
+      "elo": 1000
     },
     {
-      "name": "Alex",
-      "elo": 997
+      "name": "Alex Redd",
+      "elo": 1000
     },
     {
-      "name": "Jon",
-      "elo": 997
+      "name": "Jon Friedrich",
+      "elo": 1000
     },
     {
-      "name": "Zach P.",
-      "elo": 976
+      "name": "Zach Polo",
+      "elo": 1000
     },
     {
-      "name": "Tom",
-      "elo": 975
+      "name": "Tom Makowka",
+      "elo": 1000
     },
     {
-      "name": "Adam",
-      "elo": 975
+      "name": "Adam Huntington",
+      "elo": 1000
     },
     {
-      "name": "Thomas",
-      "elo": 975
+      "name": "Thomas Jenkins",
+      "elo": 1000
     },
     {
-      "name": "Eric O.",
-      "elo": 975
+      "name": "Eric Ostrow",
+      "elo": 1000
     },
     {
-      "name": "Sully",
-      "elo": 975
+      "name": "Sully Cole",
+      "elo": 1000
     },
     {
-      "name": "Zach W.",
-      "elo": 973
+      "name": "Zach Williams",
+      "elo": 1000
     },
     {
-      "name": "Kolby",
-      "elo": 968
+      "name": "Kolby Vocke",
+      "elo": 1000
     },
     {
-      "name": "Jacob",
-      "elo": 954
+      "name": "Jacob D'innocenzi",
+      "elo": 1000
     },
     {
-      "name": "Morgan",
-      "elo": 951
+      "name": "Morgan Phelix",
+      "elo": 1000
     },
     {
-      "name": "Ethan",
-      "elo": 946
+      "name": "Ethan DiBiase",
+      "elo": 1000
     },
     {
-      "name": "Austin",
-      "elo": 944
+      "name": "Austin Jefferson",
+      "elo": 1000
     }
   ]
 }
