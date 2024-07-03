@@ -49,7 +49,7 @@ app.put('/update', (req, res) => {
                 console.log('Elo ratings updated successfully');
                 res.json({ success: true, message: 'Elo ratings updated successfully.' });
             });
-
+            
         } catch (error) {
             console.error('Error parsing JSON:', error);
             res.status(500).json({ error: 'Error parsing JSON data.' });
