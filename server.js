@@ -49,7 +49,6 @@ app.put('/update', (req, res) => {
                 console.log('Elo ratings updated successfully');
                 res.json({ success: true, message: 'Elo ratings updated successfully.' });
             });
-            
         } catch (error) {
             console.error('Error parsing JSON:', error);
             res.status(500).json({ error: 'Error parsing JSON data.' });
@@ -104,8 +103,13 @@ app.get('/players', (req, res) => {
 
         const jsonData = JSON.parse(data);
 
-        // Sort players by Elo in descending order
-        jsonData.brother.sort((a, b) => b.elo - a.elo);
+        // Sort players first by Elo in descending order, then by name in alphabetical order
+        jsonData.brother.sort((a, b) => {
+            if (b.elo === a.elo) {
+                return a.name.localeCompare(b.name);
+            }
+            return b.elo - a.elo;
+        });
 
         res.json(jsonData.brother);
     });
